@@ -1,0 +1,28 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.google-logo {
+  display: block;
+  text-align: center;
+  padding-top: 18%;
+}
+.searchbutton {
+  min-width: 54px;
+  display: block;
+  margin: auto;
+}
+.nright li {
+  display: inline;
+}
+.nright {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#searchbox {
+  display: block;
+  margin: auto;
+}

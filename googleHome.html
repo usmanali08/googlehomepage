@@ -5,40 +5,30 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Google home</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <main>
-        <nav class="nav-top">
-            <a class="gmail" href="https://mail.google.com/mail/?tab=wm">Gmail</a>
-            <a class="images" href="https://www.google.co.in/imghp?hl=en&tab=wi">Images</a>
-            <img id="googlelogo" src="https://www.google.com./images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google">
-            <button type="button" id="signin">
-                <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">signin</a>
-                </a>
-            </button>
+    <div class="google-logo">
+        <img src="https://www.google.com./images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google">
+        <input id="searchbox" name="search" type="text" size="40" placeholder="Search..." />
+        <div class="searchbutton">
+            <button>google search </button>
+            <button>im feeling lucky</button>
+        </div>
+    </div>
+    <ul class="nright">
+        <li>
+            <a href="https://mail.google.com/mail/?tab=wm"> Mail</a>
+        </li>
+        <li>
+            <a href="https://www.google.co.in/imghp?hl=en&tab=wi">images</a>
+        </li>
+    </ul>
 
-        </nav>
-
-    </main>
+    <script src="main.js"></script>
 </body>
-<footer>
-    <div class="footer">
-        <p class="country">India</p>
-        <nav class="flink">
-            <a class="fleft" href="https://www.google.com/intl/en_in/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
-            <a class="fleft" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
-            <a class="fleft" href="https://www.google.com/intl/en_in/about/?utm_source=google.com&utm_medium=referral&utm_campaign=hp-footer&fg=1">about</a>
-            <a class="fright" href="https://www.google.com/intl/en_in/policies/privacy/?fg=1">privacy</a>
-            <a class="fright" href="https://www.google.com/intl/en_in/policies/terms/?fg=1">terms</a>
-            <a class="fright" href="https://www.google.com/preferences?hl=en">Settings</a>
-
-        </nav>
-
-</footer>
 
 </html>
