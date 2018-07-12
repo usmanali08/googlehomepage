@@ -26,3 +26,19 @@ body {
   display: block;
   margin: auto;
 }
+.nleft li {
+  display: inline;
+}
+.nleft {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.nbottomright li {
+  display: inline;
+}
+.nbottomright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
