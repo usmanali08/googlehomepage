@@ -11,48 +11,39 @@
 </head>
 
 <body>
-    <div class="google-logo">
-        <img src="https://www.google.com./images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google">
-        <input id="searchbox" name="search" type="text" size="40" placeholder="Search..." />
-        <div class="searchbutton">
-            <button>google search </button>
-            <button>im feeling lucky</button>
+    <main>
+        <nav class="nav-top">
+            <a class="gmail" href="https://mail.google.com/mail/?tab=wm"> Mail</a>
+            <a class="images" href="https://www.google.co.in/imghp?hl=en&tab=wi">images</a>
+            <a href="https://www.google.com.br/intl/en/options/">
+                <img id="apps-logo" src="images/google-app.png" alt="google-app">
+            </a>
+            <button type="button" id="btn-signin">
+                <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">sign in</a>
+            </button>
+        </nav>
+        <div>
+            <img class="logo" src="https://www.google.com./images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google">
         </div>
-    </div>
-    <ul class="nright">
-        <li>
-            <a href="https://mail.google.com/mail/?tab=wm"> Mail</a>
-        </li>
-        <li>
-            <a href="https://www.google.co.in/imghp?hl=en&tab=wi">images</a>
-        </li>
-    </ul>
-
-    <script src="main.js"></script>
+        <input class="search-box" type="text" name="google" size="60" placeholder="google search" />
+        <div class="search-btns">
+            <button type="button" class="btn-search"> search </button>
+            <button type="button" class="btn-imlucky">I'm Feeling Lucy</button>
+        </div>
+    </main>
 </body>
 <footer>
-    <ul class="nleft">
-        <li>
-            <a href="https://www.google.com/intl/en_in/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
-        </li>
-        <li>
-            <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
-        </li>
-        <li>
-            <a href="https://www.google.com/intl/en_in/about/?utm_source=google.com&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
-        </li>
-    </ul>
-    <ul class="nbottomright">
-        <li>
-            <a href="https://www.google.com/intl/en_in/policies/privacy/?fg=1">privacy</a>
-        </li>
-        <li>
-            <a href="https://www.google.com/intl/en_in/policies/terms/?fg=1">Terms</a>
-        </li>
-        <li>
-            <a href="https://www.google.com/preferences?hl=en">Settings</a>
-        </li>
-    </ul>
+    <div class="fbar">
+        <p class="place">India</p>
+        <nav class="flink">
+            <a class="fleft" href="https://www.google.com/intl/en_in/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+            <a class="fleft" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
+            <a class="fleft" href="https://www.google.com/intl/en_in/about/?utm_source=google.com&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+            <a class="fright Settings" href="https://www.google.com/intl/en_in/policies/privacy/?fg=1">privacy</a>
+            <a class="fright" href="https://www.google.com/intl/en_in/policies/terms/?fg=1">Terms</a>
+            <a class="fright" href="https://www.google.com/preferences?hl=en">Settings</a>
+        </nav>
+    </div>
 </footer>
 
 </html>
